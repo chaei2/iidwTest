@@ -1,0 +1,31 @@
+* {
+  box-sizing: border-box;
+  &::after,
+  &::before {
+    box-sizing: border-box;
+  }
+}
+
+body {
+  margin: 0;
+  background-color: coral;
+}
+
+.section {
+  padding-inline: 40px;
+  background-color: aqua;
+}
+
+// 와이드한 사이트들 1440에서 1600px정도에서 끝냄
+.container {
+  background-color: antiquewhite;
+  max-width: 1200px;
+  // 이거 센터링하려면 margin-inline: auto;가 있어야함
+  margin-inline: auto;
+}
+
+.h1-text {
+  // color: ;
+}
+// 앞으로 css 파일은 열지 말고, 무조건 scss를 열어야함
+// 다만 scss를 읽지 못해서 플러그인을 켜야함

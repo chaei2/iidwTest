@@ -1,0 +1,22 @@
+* {
+  box-sizing: border-box;
+}
+*::after, *::before {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background-color: coral;
+}
+
+.section {
+  padding-inline: 40px;
+  background-color: aqua;
+}
+
+.container {
+  background-color: antiquewhite;
+  max-width: 1200px;
+  margin-inline: auto;
+}
